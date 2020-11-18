@@ -1,5 +1,9 @@
 def join_nested_strings(src)
-  
+  src.each do |e|
+    if e.is_a? String
+      e.concat
+    end
+  end
 end
 
 # src will be an Array of Arrays of Strings and Integers
