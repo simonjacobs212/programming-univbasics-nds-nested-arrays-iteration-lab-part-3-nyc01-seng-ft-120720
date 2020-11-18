@@ -2,8 +2,8 @@ def join_nested_strings(src)
   stringcheese = " "
   src.each do |e|
     e.each do |f|
-      if e.is_a? String
-        stringcheese.concat(e)
+      if f.is_a? String
+        stringcheese.concat(f)
       end
     end
   end
