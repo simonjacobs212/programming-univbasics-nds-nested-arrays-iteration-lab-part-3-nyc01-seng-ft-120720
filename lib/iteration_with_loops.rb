@@ -3,7 +3,7 @@ def join_nested_strings(src)
   src.each do |e|
     e.each do |f|
       if f.is_a? String
-        stringcheese.concat(f).join(" ")
+        stringcheese.concat(f)
       end
     end
   end
