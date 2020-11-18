@@ -5,7 +5,7 @@ def join_nested_strings(src)
       e.concat(stringcheese)
     end
   end
-  stringcheese
+  puts stringcheese
 end
 
 # src will be an Array of Arrays of Strings and Integers
